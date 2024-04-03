@@ -1,0 +1,815 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:09,  4.66s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:09<00:04,  4.65s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:12<00:00,  3.89s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:12<00:00,  4.09s/it]
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[01/Nov/2023 17:45:47] "GET /api/Q&A/ HTTP/1.1" 200 471
+[01/Nov/2023 17:48:39] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[01/Nov/2023 17:48:45] "POST /api/Q&A/ HTTP/1.1" 200 317
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[01/Nov/2023 17:56:05] "POST /api/Q&A/ HTTP/1.1" 200 325
+Not Found: /aaa9
+[01/Nov/2023 17:58:57] "GET /aaa9 HTTP/1.1" 404 2195
+Not Found: /aab8
+[01/Nov/2023 17:58:58] "GET /aab8 HTTP/1.1" 404 2195
+Not Found: /
+[01/Nov/2023 17:58:59] "GET / HTTP/1.1" 404 2165
+[01/Nov/2023 18:01:54] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[01/Nov/2023 18:01:56] "POST /api/Q&A/ HTTP/1.1" 200 51
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[01/Nov/2023 18:04:05] "POST /api/Q&A/ HTTP/1.1" 200 224
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[01/Nov/2023 18:09:22] "POST /api/Q&A/ HTTP/1.1" 200 224
+System check identified no issues (0 silenced).
+November 01, 2023 - 17:43:59
+Django version 4.2.6, using settings 'gpt1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+load INSTRUCTOR_Transformer
+max_seq_length  512
+compare between fannie mae and freddie mac
+ Both Fannie Mae and Freddie Mac are government sponsored enterprises (GSEs) that purchase mortgages from lenders in order to provide liquidity to the housing market. However, there are some differences between them. For example, Fannie Mae generally requires higher credit scores than Freddie Mac, while Freddie Mac allows more flexibility in terms of debt-to-income ratios. Additionally, Fannie Mae has stricter loan limit requirements than Freddie Mac.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what should be the credit score to get a loan
+ It depends on the specific loan product and underwriting guidelines. In this case, the minimum credit score required would depend on the qualifying score methodology outlined in the document provided. Without knowing the exact qualifying score criteria, it's impossible to provide an accurate answer.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Foreign national loans. How much do they need down?
+ For foreign national loans, borrowers typically need to put down at least 20% of the purchase price or appraised value, whichever is lower. However, this can vary depending on factors such as credit score, income, debt-to-income ratio, and other factors specific to the borrower and property being purchased.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+hello
+ Hello! How can I assist you today?
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Do you offer DSCR loans without a prepayment penalty?
+ Yes, we do offer DSCR loans without a prepayment penalty depending on the state where the property is located. Please contact your local branch for more information about our non-prepayment penalty products.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Do you offer DSCR loans without a prepayment penalty?
+ Yes, we do offer DSCR loans without a prepayment penalty depending on the state where the property is located. Please contact your local branch for more information about our non-prepayment penalty products.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:08<00:16,  8.01s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:15<00:07,  7.99s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:21<00:00,  6.65s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:21<00:00,  7.02s/it]
+[09/Nov/2023 15:36:26] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[09/Nov/2023 15:36:33] "POST /api/Q&A/ HTTP/1.1" 200 303
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[09/Nov/2023 15:37:49] "POST /api/Q&A/ HTTP/1.1" 200 242
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:14,  7.16s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:14<00:07,  7.15s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:18<00:00,  5.95s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:18<00:00,  6.28s/it]
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[10/Nov/2023 12:21:48] "POST /api/Q&A/ HTTP/1.1" 200 510
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[10/Nov/2023 12:22:36] "POST /api/Q&A/ HTTP/1.1" 200 933
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[10/Nov/2023 12:24:15] "POST /api/Q&A/ HTTP/1.1" 200 612
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:14,  7.14s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:14<00:07,  7.15s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:18<00:00,  5.95s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:18<00:00,  6.27s/it]
+[10/Nov/2023 18:27:30] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[10/Nov/2023 18:27:43] "POST /api/Q&A/ HTTP/1.1" 200 543
+[10/Nov/2023 18:30:17] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[10/Nov/2023 18:30:24] "POST /api/Q&A/ HTTP/1.1" 200 403
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[10/Nov/2023 18:31:10] "POST /api/Q&A/ HTTP/1.1" 200 269
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[10/Nov/2023 18:31:41] "POST /api/Q&A/ HTTP/1.1" 200 474
+[10/Nov/2023 19:06:12] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[10/Nov/2023 19:06:19] "POST /api/Q&A/ HTTP/1.1" 200 416
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[10/Nov/2023 19:07:41] "POST /api/Q&A/ HTTP/1.1" 200 684
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[10/Nov/2023 19:11:58] "POST /api/Q&A/ HTTP/1.1" 200 574
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[10/Nov/2023 19:13:00] "POST /api/Q&A/ HTTP/1.1" 200 379
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:08<00:16,  8.02s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:16<00:08,  8.02s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:21<00:00,  6.68s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:21<00:00,  7.04s/it]
+[21/Nov/2023 17:41:53] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[21/Nov/2023 17:42:16] "POST /api/Q&A/ HTTP/1.1" 200 873
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 17:43:23] "POST /api/Q&A/ HTTP/1.1" 200 68
+[21/Nov/2023 17:45:11] "OPTIONS /api/92/ld/ HTTP/1.1" 200 0
+[21/Nov/2023 17:45:12] "PUT /api/92/ld/ HTTP/1.1" 200 48
+[21/Nov/2023 17:58:12] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 17:58:22] "POST /api/Q&A/ HTTP/1.1" 200 552
+[21/Nov/2023 17:58:32] "OPTIONS /api/93/ld/ HTTP/1.1" 200 0
+[21/Nov/2023 17:58:32] "PUT /api/93/ld/ HTTP/1.1" 200 49
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 17:59:22] "POST /api/Q&A/ HTTP/1.1" 200 552
+Not Found: /
+[21/Nov/2023 17:59:32] "GET / HTTP/1.1" 404 2165
+[21/Nov/2023 19:12:05] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:12:09] "POST /api/Q&A/ HTTP/1.1" 200 191
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:19:33] "POST /api/Q&A/ HTTP/1.1" 200 423
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:21:06] "POST /api/Q&A/ HTTP/1.1" 200 584
+[21/Nov/2023 19:26:39] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:26:44] "POST /api/Q&A/ HTTP/1.1" 200 282
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:27:21] "POST /api/Q&A/ HTTP/1.1" 200 288
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:28:13] "POST /api/Q&A/ HTTP/1.1" 200 270
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/pipelines/base.py:1101: UserWarning: You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  warnings.warn(
+[21/Nov/2023 19:29:26] "POST /api/Q&A/ HTTP/1.1" 200 616
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:30:09] "POST /api/Q&A/ HTTP/1.1" 200 250
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:33:28] "POST /api/Q&A/ HTTP/1.1" 200 305
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:34:24] "POST /api/Q&A/ HTTP/1.1" 200 854
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:35:15] "POST /api/Q&A/ HTTP/1.1" 200 194
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+System check identified no issues (0 silenced).
+November 21, 2023 - 17:39:32
+Django version 4.2.6, using settings 'gpt1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+load INSTRUCTOR_Transformer
+max_seq_length  512
+list 5 bullet point on Fannie Mae guidelines and explain each bullet point
+ Here are five bullet points on Fannie Mae guidelines:
+
+1. Credit Score Requirements: Fannie Mae requires a minimum credit score of 620 for conventional mortgages. However, some lenders may have stricter credit score requirements.
+
+2. Loan Amount Limits: The maximum loan amount varies depending on where you live and can range from $484,350 to over $700,000 in high-cost areas.
+
+3. Debt-to-Income Ratio: Fannie Mae typically requires a debt-to-income ratio of no more than 45% for conventional mortgage borrowers.
+
+4. Property Type Restrictions: Fannie Mae does not purchase loans secured by properties used for agricultural purposes, commercial use, or multi-family units with more than four units.
+
+5. Insurance Requirements: Fannie Mae requires private mortgage insurance (PMI) for all conventional mortgages with less than a 20% down payment.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+What is the minimum loan amount on a DSCR loan?
+ The minimum loan amount on a DSCR loan is $100,000.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Explain Fannie Mae guidelines?
+ Fannie Mae is a government sponsored enterprise that purchases mortgages from lenders to provide liquidity to the housing market. They have specific guidelines for loan eligibility, including credit score requirements, income documentation, property appraisals, and other factors. These guidelines ensure that borrowers can afford their mortgage payments and that properties meet certain standards for safety and habitability. Lenders who sell loans to Fannie Mae must follow these guidelines in order to participate in their programs.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Explain Fannie Mae guidelines?
+ Fannie Mae is a government sponsored enterprise that purchases mortgages from lenders to provide liquidity to the housing market. They have specific guidelines for loan eligibility, including credit score requirements, income documentation, property appraisals, and other factors. These guidelines ensure that borrowers can afford their mortgage payments and that properties meet certain standards for safety and habitability. Lenders who sell loans to Fannie Mae must follow these guidelines in order to participate in their programs.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Do you have a program for somebody with a 550 credit score purchasing a primary residence?
+ No, we do not offer programs for individuals with a credit score below 620. However, I recommend reaching out to other lenders to see if they may have different requirements.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Can I do a cash out refinance on a vacant home?
+ No, according to the guidelines provided, a cash-out refinance transaction cannot be done on a vacant home. One of the requirements states that "if the subject property was listed for sale within the past six (6) months prior to the loan closing date, then it must be taken off the market before the loan closing date." Since a vacant home is typically listed for sale, this requirement would not be met.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what options do I have for an empty home that is not listed for sale
+ Option 1 (Not under contract): You can list the departure residence for sale without having a signed contract in place. However, you will need to provide a signed letter of intent from a potential buyer indicating their interest in purchasing the property. This letter should include details such as the proposed purchase price, down payment amount, and estimated closing date. Additionally, the borrower must be netting a positive number from the sale of the property or account for any funds they may have to bring to closing on the sale of the departure residence.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+i am 21 years old with a credit score of 550, am i eligible for the mortgage loan
+ It depends on other factors such as your income, debt-to-income ratio, and assets. However, having a low credit score can make it difficult to get approved for a mortgage loan. You may want to work on improving your credit score before applying for a mortgage loan.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what is the minimum credit score do i need to qualify for a mortgage
+ To qualify for a mortgage, you typically need a credit score of at least 620. However, this can vary depending on the specific program and lender requirements. It’s best to consult with a mortgage professional who can provide guidance based on your unique situation.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+is 620 not a high score for a person who is 21 years old
+ The FICO® Score range is typically between 300 and 850, so 620 would be considered a good score for someone who is 21 years old. However, it depends on their individual circumstances such as income, debts, etc., which can affect their credit score.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+which mortgage companies can qualify me at age 21 with a credit score of 620 and what are the rate should I expect 
+ There are some mortgage companies that may consider approving your application if you have a credit score of 620. However, it would depend on other factors such as income, debt-to-income ratio, employment status, etc. You might want to check with local banks or credit unions to see if they offer any first-time buyer programs that could help you get approved. As far as rates go, your rate will likely be higher compared to someone who has a higher credit score. It's always best to work on improving your credit score before applying for a mortgage so you can potentially qualify for better rates.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+do you have any mortage companies you can recomend
+ Yes, I would recommend checking out XYZ Mortgage Company. They offer competitive rates and great customer service. Another option could be ABC Mortgage Company, they also have good reviews and a wide range of products to choose from.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what is the minimum down payment expected for a good mortgage
+ There is no specific minimum down payment required for a "good" mortgage. However, most conventional loans require a minimum down payment of 5%. FHA loans typically have lower down payment requirements, ranging from 3.5% - 10% depending on the borrower's credit score and other factors.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what benefits do i get if I make a down payment for 20% 
+ Making a down payment of 20% can provide several benefits:
+
+1. Lower monthly mortgage payments - By making a larger down payment, your loan balance will be lower, which means you will have less interest to pay over time. This can result in lower monthly mortgage payments.
+
+2. Reduced private mortgage insurance (PMI) premiums - When you put down more than 20%, PMI is typically not required. Without PMI, you could save hundreds of dollars per year in premium payments.
+
+3. Ability to refinance with better terms - With a higher equity stake in your home, you may qualify for better rates and terms when it comes time to refinance your mortgage.
+
+4. Improved credit score - Making regular mortgage payments on time can help improve your credit score, which can lead to better loan options and lower interest rates in the future.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what is the term jumbo loan
+ A jumbo loan is any home loan that exceeds the conforming loan limits set by Fannie Mae and Freddie Mac. In most areas of the country, this means any loan greater than $484,350.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what are the disadvantages of getting into a jumbo loan
+[21/Nov/2023 19:36:02] "POST /api/Q&A/ HTTP/1.1" 200 676
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:37:07] "POST /api/Q&A/ HTTP/1.1" 200 339
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:37:33] "POST /api/Q&A/ HTTP/1.1" 200 115
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:38:12] "POST /api/Q&A/ HTTP/1.1" 200 529
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:39:00] "POST /api/Q&A/ HTTP/1.1" 200 407
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:39:43] "POST /api/Q&A/ HTTP/1.1" 200 355
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:40:26] "POST /api/Q&A/ HTTP/1.1" 200 430
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:41:26] "POST /api/Q&A/ HTTP/1.1" 200 101
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:42:08] "POST /api/Q&A/ HTTP/1.1" 200 543
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:42:42] "POST /api/Q&A/ HTTP/1.1" 200 657
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:43:52] "POST /api/Q&A/ HTTP/1.1" 200 477
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:44:46] "POST /api/Q&A/ HTTP/1.1" 200 395
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:45:23] "POST /api/Q&A/ HTTP/1.1" 200 371
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:45:41] "POST /api/Q&A/ HTTP/1.1" 200 405
+[21/Nov/2023 19:46:16] "OPTIONS /api/119/ld/ HTTP/1.1" 200 0
+[21/Nov/2023 19:46:16] "PUT /api/119/ld/ HTTP/1.1" 200 50
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+ There can be several potential disadvantages associated with obtaining a jumbo loan. One common issue is that they typically require higher credit scores and larger down payments than conventional mortgages. Additionally, interest rates for jumbo loans tend to be slightly higher due to their riskier nature. Another consideration is that some borrowers may find it difficult to sell their homes if they need to move quickly because there are fewer buyers who can afford a jumbo loan. Finally, jumbo loans often come with stricter underwriting guidelines and more extensive documentation requirements, which can add complexity and time to the lending process.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+when i convert jumbo loan to conventional loan do I need to pay closing fees again
+ No, generally speaking, you should not have to pay closing fees again when converting from a Jumbo Loan to a Conventional Loan. However, it depends on your specific situation and the terms of your loans. You should consult with a mortgage professional to determine whether or not you would need to pay any additional fees.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+can you elaborate more 
+ Sure! Can you please provide me with the specific section number where you found this information?
+load INSTRUCTOR_Transformer
+max_seq_length  512
+can you elaborate more on the closing fees when I move from jumbo loan to convential loan
+ When moving from a jumbo loan to a conventional loan, there are typically some additional fees associated with the transaction. These could include things like lender's inspection fees, attorney fees, and underwriting fees. Additionally, depending on your specific situation, there may be fees related to obtaining a new appraisal or updating your credit report. It's always best to review the Good Faith Estimate (GFE) provided by your lender to understand exactly what fees will be assessed during the process.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what are the typical closing fees charged for a convential loan
+ Typical closing fees charged for a conventional loan include appraisal fees, title search and insurance fees, survey fees, attorney fees, recording fees, and transfer taxes. These fees vary depending on the location and size of the property being purchased. Other fees such as credit report fees, flood determination fees, and pest inspection fees may also be included in the closing costs.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+how much closing fees do i pay typically when closing a home
+ Typically, closing fees can range from about 2% - 6% of the purchase price of the home depending on various factors like location, type of mortgage, and whether there are any special programs involved. However, it is always best to check with your specific lender or realtor to get an accurate estimate based on your individual situation.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+share me names of lenders who charge 4% of less in closing fees
+ There are many lenders who offer competitive rates on their mortgages and also have low closing fees. Some examples of lenders who typically charge 4% or less in closing fees include Quicken Loans, Wells Fargo, Bank of America, Chase, CitiMortgage, and USAA. However, it is always best to compare offers from multiple lenders before making a decision so that you can ensure you are getting the best deal possible.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+What is the Max cash out For a second home.
+ The max cash out for a second home is $350,000 according to the guidelines provided.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Are you able to close on a building that has mixed-use?
+ It depends on whether the mixed-use property meets certain criteria set forth by FHA guidelines. Specifically, the property must be primarily residential in nature and cannot have any nonresidential uses that exceed 25% of the Gross Living Area (GLA). Additionally, it cannot have any commercial zoning, unless the property is residential in nature and does not contain any nonresidential uses that exceed 25% of the GLA. Finally, it cannot have any agricultural-type uses, undeveloped land, or properties with illegal zoning.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what happens if I default on my loan payments for more than 6 months
+ If you default on your loan payments for more than 6 months, your lender can initiate foreclosure proceedings against your property. The specific steps involved in this process vary by state but typically involve sending several letters and making phone calls before ultimately filing a lawsuit to take possession of the property and sell it to recover the outstanding debt. Depending on local laws and other factors, you may also face legal penalties such as damages or fines. It’s important to stay in communication with your lender and explore options like loan modification or forbearance if you are having trouble making payments.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+is it advisable to take additional insurance at closing 
+ It depends on your specific situation and what type of additional insurance you are referring to. Generally speaking, if there are any gaps in coverage between when the new homeowner takes possession of the property and when their own personal insurance policy goes into effect, then taking out additional insurance may be a good idea. However, this should always be discussed with your real estate professional and insurance agent before making any decisions.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what insurances are required by the borrower before closing 
+ It depends on the state where the property is located. Generally speaking, borrowers need hazard insurance coverage to protect against damage from fire, windstorms,
+and other natural disasters, as well as liability insurance to cover accidents that occur on their property. Additionally, some lenders may require flood insurance if the property is
+located in a high-risk area.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what is title insurance
+ Title insurance protects against losses resulting from defects in the title to real estate, such as errors or omissions in deeds, mistakes in examining records, forgery, fraud, liens, encumbrances, and other matters not disclosed by the public record. It also covers legal fees and expenses associated with defending claims against your ownership rights.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Can I purchase a second home with 10% down?
+ No, according to the guidelines provided in this document, borrowers must contribute at least 25% of the purchase price as their own funds towards a second home. Additionally, there are limits on the total dollar amount of the Financing Concessions, so it's possible that even with a higher down payment, the borrower would still not qualify for financing due to the limit on concessions.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+what specific points do i need to read and review when closing the sale
+[21/Nov/2023 19:47:10] "POST /api/Q&A/ HTTP/1.1" 200 1227
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:49:12] "POST /api/Q&A/ HTTP/1.1" 200 1438
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:50:16] "POST /api/Q&A/ HTTP/1.1" 200 325
+[21/Nov/2023 19:50:49] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:50:54] "POST /api/Q&A/ HTTP/1.1" 200 289
+[21/Nov/2023 19:50:59] "OPTIONS /api/123/ld/ HTTP/1.1" 200 0
+[21/Nov/2023 19:50:59] "PUT /api/123/ld/ HTTP/1.1" 200 50
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:51:25] "POST /api/Q&A/ HTTP/1.1" 200 760
+[21/Nov/2023 19:51:36] "PUT /api/123/ld/ HTTP/1.1" 200 50
+[21/Nov/2023 19:51:38] "PUT /api/123/ld/ HTTP/1.1" 200 50
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:52:03] "POST /api/Q&A/ HTTP/1.1" 200 188
+[21/Nov/2023 19:52:05] "OPTIONS /api/125/ld/ HTTP/1.1" 200 0
+[21/Nov/2023 19:52:05] "PUT /api/125/ld/ HTTP/1.1" 200 50
+[21/Nov/2023 19:53:11] "PUT /api/125/ld/ HTTP/1.1" 200 50
+[21/Nov/2023 19:54:44] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 19:54:52] "POST /api/Q&A/ HTTP/1.1" 200 456
+[21/Nov/2023 19:57:35] "PUT /api/125/ld/ HTTP/1.1" 200 50
+[21/Nov/2023 19:57:37] "PUT /api/125/ld/ HTTP/1.1" 200 50
+[21/Nov/2023 21:16:24] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[21/Nov/2023 21:16:27] "POST /api/Q&A/ HTTP/1.1" 200 188
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:15,  7.97s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:15<00:07,  7.95s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:20<00:00,  6.62s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:20<00:00,  6.98s/it]
+[05/Dec/2023 09:42:01] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[05/Dec/2023 09:42:14] "POST /api/Q&A/ HTTP/1.1" 200 728
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[05/Dec/2023 09:42:42] "POST /api/Q&A/ HTTP/1.1" 200 728
+[05/Dec/2023 11:13:52] code 400, message Bad request version ('À\x13À')
+[05/Dec/2023 11:13:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Dec/2023 11:13:52] code 400, message Bad request version ('À(À$À\x14À')
+[05/Dec/2023 11:13:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Dec/2023 12:34:44] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[05/Dec/2023 12:34:55] "POST /api/Q&A/ HTTP/1.1" 200 728
+[05/Dec/2023 12:40:22] "OPTIONS /api/generate/ HTTP/1.1" 200 0
+Not Found: /api/generate/
+[05/Dec/2023 12:40:23] "POST /api/generate/ HTTP/1.1" 404 2493
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[05/Dec/2023 12:41:22] "POST /api/Q&A/ HTTP/1.1" 200 728
+Not Found: /
+[05/Dec/2023 12:56:27] "GET / HTTP/1.1" 404 2164
+[05/Dec/2023 12:57:55] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[05/Dec/2023 12:58:06] "POST /api/Q&A/ HTTP/1.1" 200 728
+Not Found: /
+[05/Dec/2023 13:25:50] "GET / HTTP/1.1" 404 2164
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+terminate called without an active exception
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:15,  7.85s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:15<00:07,  7.90s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:20<00:00,  6.59s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:20<00:00,  6.94s/it]
+[08/Dec/2023 19:11:32] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[08/Dec/2023 19:11:47] "POST /api/Q&A/ HTTP/1.1" 200 795
+[08/Dec/2023 19:28:12] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[08/Dec/2023 19:28:22] "POST /api/Q&A/ HTTP/1.1" 200 574
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[08/Dec/2023 19:29:36] "POST /api/Q&A/ HTTP/1.1" 200 733
+[08/Dec/2023 19:29:39] "OPTIONS /api/161/ld/ HTTP/1.1" 200 0
+[08/Dec/2023 19:29:40] "PUT /api/161/ld/ HTTP/1.1" 200 50
+[08/Dec/2023 19:29:40] "PUT /api/161/ld/ HTTP/1.1" 200 50
+[08/Dec/2023 21:13:38] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[08/Dec/2023 21:13:46] "POST /api/Q&A/ HTTP/1.1" 200 392
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[08/Dec/2023 21:37:36] "POST /api/Q&A/ HTTP/1.1" 200 191
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[08/Dec/2023 21:38:19] "POST /api/Q&A/ HTTP/1.1" 200 474
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[08/Dec/2023 21:39:18] "POST /api/Q&A/ HTTP/1.1" 200 543
+[08/Dec/2023 21:39:51] "OPTIONS /api/165/ld/ HTTP/1.1" 200 0
+[08/Dec/2023 21:39:52] "PUT /api/165/ld/ HTTP/1.1" 200 50
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[08/Dec/2023 21:40:17] "POST /api/Q&A/ HTTP/1.1" 200 543
+[08/Dec/2023 22:53:23,773] - Broken pipe from ('162.142.125.12', 58138)
+Not Found: /
+[08/Dec/2023 22:53:26] "GET / HTTP/1.1" 404 2164
+[08/Dec/2023 22:53:26,835] - Broken pipe from ('162.142.125.12', 48602)
+Not Found: /
+[08/Dec/2023 22:53:29] "GET / HTTP/1.1" 404 2164
+[08/Dec/2023 22:53:29] code 505, message Invalid HTTP version (2.0)
+[08/Dec/2023 22:53:29] "PRI * HTTP/2.0" 505 -
+[08/Dec/2023 23:22:29] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[08/Dec/2023 23:22:36] "POST /api/Q&A/ HTTP/1.1" 200 228
+[08/Dec/2023 23:22:49,997] - Broken pipe from ('116.75.24.119', 51007)
+Not Found: /
+[09/Dec/2023 03:11:24] "GET / HTTP/1.1" 404 2164
+Not Found: /
+[09/Dec/2023 06:23:23] "GET / HTTP/1.1" 404 2164
+[09/Dec/2023 11:11:50,754] - Broken pipe from ('167.94.146.57', 52528)
+Not Found: /
+[09/Dec/2023 11:11:53] "GET / HTTP/1.1" 404 2164
+[09/Dec/2023 11:11:53,944] - Broken pipe from ('167.94.146.57', 56926)
+Not Found: /
+[09/Dec/2023 11:11:57] "GET / HTTP/1.1" 404 2164
+[09/Dec/2023 11:11:57] code 505, message Invalid HTTP version (2.0)
+[09/Dec/2023 11:11:57] "PRI * HTTP/2.0" 505 -
+/usr/lib/python3.10/token.py changed, reloading.
+System check identified no issues (0 silenced).
+December 08, 2023 - 19:03:56
+Django version 4.2.6, using settings 'gpt1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+load INSTRUCTOR_Transformer
+max_seq_length  512
+give note on freebie mac
+ Freddie Mac is a government-sponsored enterprise that purchases mortgages from lenders to help them provide liquidity to the housing market. They require certain documentation standards when it comes to mortgage loans they purchase. The specific requirements vary depending on the loan program and investor guidelines. In general, borrowers need to provide evidence of their income, employment, and assets, such as pay stubs, W-2s, tax returns, bank statements, and property appraisals. Additionally, there are specific requirements for signing and notarizing legal documents like notes and security instruments. It's important for lenders to follow these guidelines to ensure that the loans they sell to Freddie Mac meet their standards and can be sold on the secondary market.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+when is an appraisal update required ?
+ An appraisal update is required if the property has not declined in value since the date of the original appraisal report, the building improvements that contribute value to the property can be observed from the street or a public way, and the appraiser finds no changes have occurred since the original report was completed. Additionally, the update must be completed within 120 days of funding and by the same appraiser who completed the original appraisal report unless a substitute appraiser is necessary due to unavailability of the original appraiser.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+explain fannie mae guidelines
+ Fannie Mae is a government sponsored enterprise (GSE) that purchases residential mortgage loans from lenders in order to provide liquidity to the housing market. They set guidelines for lenders to follow when originating these loans, including credit score requirements, income documentation, and property eligibility criteria. These guidelines ensure that borrowers meet certain standards before being approved for a loan, which helps protect both borrowers and lenders from potential risks associated with defaulted loans. Additionally, Fannie Mae provides resources such as online tools and training materials to assist lenders in understanding their guidelines and staying compliant with regulatory requirements.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+What is the Max cashout I can get using only the rental income on an investment property?
+ It depends on several factors such as the loan program, the LTV ratio, and the lender's policies. However, generally speaking, Fannie Mae allows up to 75% of the gross rental income to be counted towards qualifying income for a conventional mortgage. For example, if the rental income is $2,000 per month, up to $1,500 can be counted towards qualifying income ($2,000 x 75%).
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Do you have a program for somebody with a 550 credit score purchasing a primary residence?
+ No, we do not offer programs for individuals with a credit score below 620. However, I recommend reaching out to other lenders to see if they may have different requirements.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+What is the minimum loan amount on a conventional mortgage?
+ The minimum loan amount for a conventional mortgage varies based on the type of property being financed. For single family homes, the minimum loan amount is typically $350,000, but this can vary depending on where the property is located. For multi-family properties, the minimum loan amount is usually $500,000. However, there may be exceptions to these rules, so it's best to check with your lender to confirm the specific requirements for your situation.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Are you able to close on a building that has mixed-use?
+ It depends on whether the mixed-use property meets certain criteria set forth by FHA guidelines. Specifically, the property must be primarily residential in nature and cannot have any nonresidential uses that exceed 25% of the Gross Living Area (GLA). Additionally, it cannot have any commercial zoning, unless the property is residential in nature and does not contain any nonresidential uses that exceed 25% of the GLA. Finally, it cannot have any agricultural-type uses, undeveloped land, or properties with illegal zoning.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Are you able to close on a building that has mixed-use?
+ It depends on whether the mixed-use property meets certain criteria set forth by FHA guidelines. Specifically, the property must be primarily residential in nature and cannot have any nonresidential uses that exceed 25% of the Gross Living Area (GLA). Additionally, it cannot have any commercial zoning, unless the property is residential in nature and does not contain any nonresidential uses that exceed 25% of the GLA. Finally, it cannot have any agricultural-type uses, undeveloped land, or properties with illegal zoning.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+What is the minimun credit score for primary occupancy having 1 number of units and maximum loan amount of $2,000,000 under product matrix of PURCHASE / RATE TERM REFINANCE.
+ According to the guidelines provided, the minimum credit score required for a primary residence with 1 unit and a maximum loan amount of $2,000,000 under the PURCHASE / RATE TERM REFINANCE category would be 660.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:14,  7.17s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:14<00:07,  7.16s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:18<00:00,  5.97s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:18<00:00,  6.29s/it]
+Not Found: /
+[09/Dec/2023 12:28:33] "GET / HTTP/1.1" 404 2164
+[09/Dec/2023 13:02:39] code 400, message Bad request version ('À\x13À')
+[09/Dec/2023 13:02:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Dec/2023 13:02:39] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03Ò5ëStÔÌ\x82¼¯\\äH')
+[09/Dec/2023 13:02:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:15,  7.93s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:15<00:07,  7.91s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:20<00:00,  6.58s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:20<00:00,  6.94s/it]
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[15/Dec/2023 20:18:10] "POST /api/Q&A/ HTTP/1.1" 200 543
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[15/Dec/2023 20:18:32] "POST /api/Q&A/ HTTP/1.1" 200 543
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[15/Dec/2023 20:18:58] "POST /api/Q&A/ HTTP/1.1" 200 543
+[15/Dec/2023 20:23:08] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[15/Dec/2023 20:23:16] "POST /api/Q&A/ HTTP/1.1" 200 515
+[15/Dec/2023 20:23:54,903] - Broken pipe from ('116.75.163.91', 58115)
+[15/Dec/2023 21:17:34] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[15/Dec/2023 21:17:41] "POST /api/Q&A/ HTTP/1.1" 200 388
+[15/Dec/2023 22:22:45] code 400, message Bad request version ('À\x13À')
+[15/Dec/2023 22:22:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Dec/2023 22:22:45] code 400, message Bad request version ('À(À$À\x14À')
+[15/Dec/2023 22:22:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Dec/2023 00:24:50] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+[16/Dec/2023 00:24:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[16/Dec/2023 00:25:01] "GET / HTTP/1.1" 404 2164
+Not Found: /favicon.ico
+[16/Dec/2023 00:25:20] "GET /favicon.ico HTTP/1.1" 404 2215
+Not Found: /robots.txt
+[16/Dec/2023 00:25:21] "GET /robots.txt HTTP/1.1" 404 2212
+Not Found: /sitemap.xml
+[16/Dec/2023 00:25:21] "GET /sitemap.xml HTTP/1.1" 404 2215
+Not Found: /
+[16/Dec/2023 02:14:39] "GET / HTTP/1.1" 404 2164
+[16/Dec/2023 02:15:03] code 400, message Bad request syntax ('MGLNDD_44.221.82.62_8000')
+[16/Dec/2023 02:15:03] "MGLNDD_44.221.82.62_8000" 400 -
+[16/Dec/2023 04:18:54] code 400, message Bad request version ('À\x13À')
+[16/Dec/2023 04:18:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[16/Dec/2023 04:18:55] "GET / HTTP/1.1" 404 2159
+Not Found: /
+[16/Dec/2023 04:18:55] "GET / HTTP/1.1" 404 2159
+Not Found: /version
+[16/Dec/2023 04:18:55] "GET /version HTTP/1.1" 404 2203
+Not Found: /.vscode/sftp.json
+[16/Dec/2023 04:18:55] "GET /.vscode/sftp.json HTTP/1.1" 404 2233
+Not Found: /about
+[16/Dec/2023 04:18:56] "GET /about HTTP/1.1" 404 2197
+Not Found: /debug/default/view
+[16/Dec/2023 04:18:56] "GET /debug/default/view?panel=config HTTP/1.1" 404 2249
+Not Found: /v2/_catalog
+[16/Dec/2023 04:18:56] "GET /v2/_catalog HTTP/1.1" 404 2215
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[16/Dec/2023 04:18:56] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 2407
+Not Found: /server-status
+[16/Dec/2023 04:18:56] "GET /server-status HTTP/1.1" 404 2221
+Not Found: /_all_dbs
+[16/Dec/2023 04:18:57] "GET /_all_dbs HTTP/1.1" 404 2206
+Not Found: /.DS_Store
+[16/Dec/2023 04:18:57] "GET /.DS_Store HTTP/1.1" 404 2209
+Not Found: /.env
+[16/Dec/2023 04:18:57] "GET /.env HTTP/1.1" 404 2194
+Not Found: /.git/config
+[16/Dec/2023 04:18:57] "GET /.git/config HTTP/1.1" 404 2215
+Not Found: /s/2363e22383e2132323e24343/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+[16/Dec/2023 04:18:58] "GET /s/2363e22383e2132323e24343/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 2472
+Not Found: /config.json
+[16/Dec/2023 04:18:58] "GET /config.json HTTP/1.1" 404 2215
+Not Found: /telescope/requests
+[16/Dec/2023 04:18:58] "GET /telescope/requests HTTP/1.1" 404 2236
+Not Found: /
+[16/Dec/2023 04:18:58] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 404 2189
+Not Found: /
+[16/Dec/2023 06:15:02] "GET / HTTP/1.1" 404 2164
+[16/Dec/2023 06:25:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03±çhUÑûê?¨Y¾]\x01\x86¤²<èQ\x92<ý&û×«¿>\x8aõ²Á\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[16/Dec/2023 06:25:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Dec/2023 06:25:20] code 400, message Bad request version ('À\x14À')
+[16/Dec/2023 06:25:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[16/Dec/2023 06:25:21] "GET / HTTP/1.1" 404 2164
+[16/Dec/2023 06:25:22] code 400, message Bad request version ('À\x14À')
+[16/Dec/2023 06:25:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Dec/2023 07:42:18] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[16/Dec/2023 07:42:26] "POST /api/Q&A/ HTTP/1.1" 200 397
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [01:16<02:33, 76.63s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [02:32<01:16, 76.44s/it]Loading checkpoint shards: 100%|██████████| 3/3 [03:20<00:00, 63.13s/it]Loading checkpoint shards: 100%|██████████| 3/3 [03:20<00:00, 66.74s/it]
+[23/Dec/2023 01:05:32] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[23/Dec/2023 01:05:40] "POST /api/Q&A/ HTTP/1.1" 200 174
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[23/Dec/2023 01:08:20] "POST /api/Q&A/ HTTP/1.1" 200 174
+[23/Dec/2023 01:08:33] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[23/Dec/2023 01:08:42] "POST /api/Q&A/ HTTP/1.1" 200 491
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[23/Dec/2023 01:10:56] "POST /api/Q&A/ HTTP/1.1" 200 392
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[23/Dec/2023 01:11:43] "POST /api/Q&A/ HTTP/1.1" 200 620
+[23/Dec/2023 01:11:46] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[23/Dec/2023 01:11:55] "POST /api/Q&A/ HTTP/1.1" 200 420
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[23/Dec/2023 01:13:17] "POST /api/Q&A/ HTTP/1.1" 200 321
+[23/Dec/2023 01:14:22] "OPTIONS /api/179/ld/ HTTP/1.1" 200 0
+Internal Server Error: /api/179/ld/
+Traceback (most recent call last):
+  File "/home/ubuntu/fairway-api/smartquery/views.py", line 48, in put
+    history_entry = History.objects.get(q_id=pk)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+smartquery.models.History.DoesNotExist: History matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ubuntu/fairway-api/smartquery/views.py", line 50, in put
+    return Response({"message": "Entry not found"}, status=status.HTTP_404_NOT_FOUND)
+UnboundLocalError: local variable 'status' referenced before assignment
+[23/Dec/2023 01:14:22] "PUT /api/179/ld/ HTTP/1.1" 500 103541
+Internal Server Error: /api/179/ld/
+Traceback (most recent call last):
+  File "/home/ubuntu/fairway-api/smartquery/views.py", line 48, in put
+    history_entry = History.objects.get(q_id=pk)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+smartquery.models.History.DoesNotExist: History matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ubuntu/fairway-api/smartquery/views.py", line 50, in put
+    return Response({"message": "Entry not found"}, status=status.HTTP_404_NOT_FOUND)
+UnboundLocalError: local variable 'status' referenced before assignment
+[23/Dec/2023 01:14:23] "PUT /api/179/ld/ HTTP/1.1" 500 103541
+Internal Server Error: /api/179/ld/
+Traceback (most recent call last):
+  File "/home/ubuntu/fairway-api/smartquery/views.py", line 48, in put
+    history_entry = History.objects.get(q_id=pk)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+smartquery.models.History.DoesNotExist: History matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ubuntu/fairway-api/smartquery/views.py", line 50, in put
+    return Response({"message": "Entry not found"}, status=status.HTTP_404_NOT_FOUND)
+UnboundLocalError: local variable 'status' referenced before assignment
+[23/Dec/2023 01:14:25] "PUT /api/179/ld/ HTTP/1.1" 500 103541
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[23/Dec/2023 01:14:45] "POST /api/Q&A/ HTTP/1.1" 200 321
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[23/Dec/2023 01:18:50] "POST /api/Q&A/ HTTP/1.1" 200 487
+/home/ubuntu/fairway-api/gpt1/settings.py changed, reloading.
+System check identified no issues (0 silenced).
+December 23, 2023 - 01:01:53
+Django version 4.2.6, using settings 'gpt1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+load INSTRUCTOR_Transformer
+max_seq_length  512
+hi
+ Hi there! I hope this helps you find what you need. Can you please provide me with more information about your specific situation so I can better assist you?
+load INSTRUCTOR_Transformer
+max_seq_length  512
+hi
+ Hi there! I hope this helps you find what you need. Can you please provide me with more information about your specific situation so I can better assist you?
+load INSTRUCTOR_Transformer
+max_seq_length  512
+What is the Max seller contribution on a purchase?
+ According to the information provided in Section 16, the maximum seller contribution on a purchase is six percent (6%) of the lesser of the property's sales price or the appraised value towards the buyer's closing costs, prepaid expenses, discount points, and other financing concessions. This includes funds contributed by the property seller and/or third parties. However, normal discount points and payment of the buyer's closing costs are excluded from this calculation.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+What is the Max cashout I can get using only the rental income on an investment property?
+ It depends on several factors such as the loan program, the LTV ratio, and the lender's policies. However, generally speaking, Fannie Mae allows up to 75% of the gross rental income to be counted towards qualifying income for a conventional mortgage. For example, if the rental income is $2,000 per month, up to $1,500 can be counted towards qualifying income ($2,000 x 75%).
+load INSTRUCTOR_Transformer
+max_seq_length  512
+explain to me in 3 bullet points Bankruptcy guidelines on an investment purchase
+ Sure! Here are three key points about bankruptcy guidelines for investment purchases:
+1. Applicants who have filed for Chapter 11, 12 or 13 bankruptcy within the past two years will likely be declined by most lenders.
+2. For those who have filed for Chapter 7 bankruptcy, they can still qualify for financing after waiting periods ranging from one to four years depending on the type of loan being sought.
+3. Lenders typically require additional documentation such as proof of income, assets, liabilities, and credit history when considering applications involving borrowers with recent bankruptcies.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+When is an appraisal update require?
+ An appraisal update is required when the appraisal is over 120 days old and the property is not considered to be in a declining market. In this case, the appraiser will need to inspect the exterior of the property and review current market data to determine whether the property has declined in value since the date of the original appraisal report. This information will then be reported on Form 1004D.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+What is the minimum down payment? On the purchase of an of a home using an FHA loan.
+ There is no minimum down payment required for an FHA loan on the purchase of a home. However, borrowers are required to have a minimum credit score of 580 to qualify for the program. Additionally, they will need to pay closing costs and prepaid items, which typically range from 2%-5% of the sales price.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+What is the minimum down payment? On the purchase of an of a home using an FHA loan.
+ There is no minimum down payment required for an FHA loan on the purchase of a home. However, borrowers are required to have a minimum credit score of 580 to qualify for the program. Additionally, they will need to pay closing costs and prepaid items, which typically range from 2%-5% of the sales price.
+load INSTRUCTOR_Transformer
+max_seq_length  512
+What is considered a rural property and do you have loans for it?
+ A rural property refers to land outside of urban areas, typically characterized by low population density and limited services. Yes, we offer loans for rural properties. Our Rural Housing program provides financing options for homebuyers who wish to purchase or refinance their homes in approved rural areas. To determine whether your desired location qualifies as "rural," please refer to our website or contact one of our mortgage professionals for more information.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:15,  7.90s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:15<00:07,  7.90s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:20<00:00,  6.57s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:20<00:00,  6.93s/it]
+[23/Dec/2023 01:25:19] "OPTIONS /api/Q&A/ HTTP/1.1" 200 0
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/fairway-api/env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+[23/Dec/2023 01:25:24] "POST /api/Q&A/ HTTP/1.1" 200 174
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[23/Dec/2023 01:26:51] "POST /api/Q&A/ HTTP/1.1" 200 543
+Using embedded DuckDB with persistence: data will be stored in: /home/ubuntu/DB/
+[23/Dec/2023 01:27:20] "POST /api/Q&A/ HTTP/1.1" 200 262
+Not Found: /
+[23/Dec/2023 06:01:20] "GET / HTTP/1.1" 404 2165
+Not Found: /favicon.ico
+[23/Dec/2023 06:01:59] "GET /favicon.ico HTTP/1.1" 404 2216
+Not Found: /http:/api.ipify.org/
+[23/Dec/2023 06:02:22] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[23/Dec/2023 06:02:44] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[23/Dec/2023 07:19:16] code 400, message Bad request version ('À\x13À')
+[23/Dec/2023 07:19:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+[23/Dec/2023 07:19:16] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03üu¡/g\x06\x9f\x9b0\x01W?i(\x8c¯²H\x9f(á\x95_ñ\x01\x7f\x17xÙ\x05\x86z\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+[23/Dec/2023 07:19:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[23/Dec/2023 08:28:10] "GET / HTTP/1.1" 404 2165
+[23/Dec/2023 10:24:14] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+[23/Dec/2023 10:24:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[23/Dec/2023 10:24:24] "GET / HTTP/1.1" 404 2165
+Not Found: /favicon.ico
+[23/Dec/2023 10:24:42] "GET /favicon.ico HTTP/1.1" 404 2216
+Not Found: /robots.txt
+[23/Dec/2023 10:24:42] "GET /robots.txt HTTP/1.1" 404 2213
+Not Found: /sitemap.xml
+[23/Dec/2023 10:24:42] "GET /sitemap.xml HTTP/1.1" 404 2216
+Not Found: /cgi-bin/admin_console.cgi
+[23/Dec/2023 10:24:49] "GET /cgi-bin/admin_console.cgi HTTP/1.1" 404 2258
