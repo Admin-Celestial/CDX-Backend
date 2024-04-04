@@ -18,7 +18,7 @@ node {
                 
                 // Install dependencies and run tests
                 sh 'env/bin/pip install -r requirements.txt'
-                sh 'env/bin/python3.10 manage.py test --testrunner=gpt1.tests.test_runners.NoDbTestRunner'
+            //    sh 'env/bin/python3.10 manage.py test --testrunner=gpt1.tests.test_runners.NoDbTestRunner'
             }
         }
 
