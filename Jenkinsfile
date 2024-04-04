@@ -22,10 +22,17 @@ node {
         }
 
         stage('Deploy') {
-            sh 'chmod +x ./deployment/deploy_prod.sh'
+            // Print SSH private key for debugging
+            sh 'cat ~/.ssh/id_rsa'
+
+            // Fetch the deployment script from GitHub
+            sh 'wget https://raw.githubusercontent.com/vivek-celtech/CDX-Backend/main/deployment/deploy_prod.sh -O deploy_prod.sh'
+
+            // Grant execute permissions to the deployment script
+            sh 'chmod +x deploy_prod.sh'
             
             // Execute the deployment script
-            sh './deployment/deploy_prod.sh'
+            sh './deploy_prod.sh'
         }
 
         stage('Publish results') {
@@ -36,4 +43,3 @@ node {
         throw err
     }
 }
-
