@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh root@34.227.165.129 <<EOF
+ssh ubuntut@34.227.165.129 <<EOF
   cd fairway-api
   git pull 
   source env/bin/activate
