@@ -26,7 +26,7 @@ node {
             sh 'cat ~/.ssh/id_rsa'
 
             // Fetch the deployment script from GitHub
-            sh 'wget https://raw.githubusercontent.com/vivek-celtech/CDX-Backend/main/deployment/deploy_prod.sh -O deploy_prod.sh'
+            sh 'wget https://raw.githubusercontent.com/Admin-Celestial/CDX-Backend/main/deployment/deploy_prod.sh -O deploy_prod.sh'
 
             // Grant execute permissions to the deployment script
             sh 'chmod +x deploy_prod.sh'
