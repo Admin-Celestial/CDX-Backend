@@ -22,17 +22,17 @@ node {
         }
 
         stage('Deploy') {
-            // Print SSH private key for debugging
-            sh 'cat ~/.ssh/id_rsa'
+            // // Print SSH private key for debugging
+            // sh 'cat ~/.ssh/id_rsa'
 
-            // Fetch the deployment script from GitHub
-            sh 'wget https://raw.githubusercontent.com/Admin-Celestial/CDX-Backend/main/deployment/deploy_prod.sh -O deploy_prod.sh'
+            // // Fetch the deployment script from GitHub
+            // sh 'wget https://raw.githubusercontent.com/Admin-Celestial/CDX-Backend/main/deployment/deploy_prod.sh -O deploy_prod.sh'
 
-            // Grant execute permissions to the deployment script
-            sh 'chmod +x deploy_prod.sh'
+            // // Grant execute permissions to the deployment script
+            // sh 'chmod +x deploy_prod.sh'
             
             // Execute the deployment script
-            sh './deploy_prod.sh'
+            sh './deployment/deploy_prod.sh'
         }
 
         stage('Publish results') {
