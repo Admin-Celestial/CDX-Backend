@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ssh -t ubuntut@54.198.135.250 <<EOF
-  cd fairway-api
+  cd CDX-Backend
   git pull 
   source env/bin/activate
   ./manage.py migrate
