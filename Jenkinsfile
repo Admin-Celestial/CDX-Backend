@@ -13,7 +13,7 @@ node {
             // Define AWS credentials
             withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'AWS', accessKeyVariable: 'AWS_ACCESS_KEY_ID', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
                 // Activate virtual environment
-                sh 'virtualenv env -p python3.10'
+                sh '/home/ubuntu/.local/bin/virtualenv env -p python3.10'
                 sh '. env/bin/activate'
                 
                 // Install dependencies and run tests
