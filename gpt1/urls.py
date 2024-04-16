@@ -21,7 +21,7 @@ from django.contrib import admin
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-#    path('api/',include('smartquery.urls')),
+    path('api/',include('smartquery.urls')),
     path('api/',include('prompthistory.urls')),
     path('api/',include('validations.urls')),
     path('api/',include('usermanagement.urls')),
